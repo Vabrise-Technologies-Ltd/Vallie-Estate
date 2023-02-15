@@ -6,42 +6,72 @@
     padding: 0;
 }
 
-    /* .logo {
-        background-color: green;
-        padding: 10px;
-    } */
+nav {
+    padding: 2% 10%;
+}
+
+.navbar {
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Space Grotesk', sans-serif;
+
+}
+
+.navlinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.navlinks li {
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
 h1 {
-    background-color: aqua;
-    padding: 20px 40px;
-    margin: 20px;
-    border: 2px solid red;
+    /* padding: 20px 40px;
+    margin: 20px; */
     color: brown;
-    text-align: center;
+    /* text-align: center; */
     text-transform: capitalize;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
     font-family: 'Oleo Script', serif;
-    font-size: 20px;
-    back
+    /* font-size: 20px; */
     
 }
 
 
 ul li a {
     text-decoration: none; 
-    color: blue;  
+    color: black;  
     /* text-decoration-color: red;
     text-decoration-style: dashed; */
     /* text-transform: lowercase; */
-    letter-spacing: 2px;
-    line-height: 2;
-    text-shadow: 1px 1px 2px blue ;
-    font-family: 'Space Grotesk', sans-serif;
+    /* letter-spacing: 1px; */
+    /* line-height: 2; */
+    /* text-shadow: 1px 1px 2px blue ; */
     
 }
 
-button a {
-    font-family: 'Space Grotesk', sans-serif;
-    text-decoration: none;
 
+.navbar button {
+    padding: 10px 20px;
+    border: none;
+    border-radius:8px;
+    font-weight: 700;
+    background-color: blue;
+    color: #fff;
+
+}
+
+
+/* testmonials */
+.testmonials {
+    margin: 5% 10%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
 }
